@@ -4,7 +4,7 @@
 
 ### Original Image & Sobel Edge Detection
 
-![Original Image](./monalisa.jpg) ![Sobel Edge Detection](./sobel.jpg)
+![Original Image](./oriiginal.jpg) ![Sobel Edge Detection](./sobel.jpg)
 
 ### Prewitt & Roberts Edge Detection
 
