@@ -25,7 +25,7 @@ def show_comp(o,sobel,prewitt,roberts,canny):
     plt.axis('off')
     plt.tight_layout()
     plt.show()
-img=cv2.imread('monalisa.jpeg',0)
+img=cv2.imread('monalisa.jpg',0)
 if img is None:
   print('Image not found')
 else:
