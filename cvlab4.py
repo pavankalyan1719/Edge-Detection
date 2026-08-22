@@ -25,21 +25,6 @@ def show_comp(o,sobel,prewitt,roberts,canny):
     plt.axis('off')
     plt.tight_layout()
     plt.show()
-width = 300
-height = 300
-
-original = cv2.resize(img, (width, height))
-sobel = cv2.resize(sobel_combined, (width, height))
-prewitt = cv2.resize(prewitt_combined, (width, height))
-roberts = cv2.resize(roberts_combined, (width, height))
-canny = cv2.resize(canny_edges, (width, height))
-
-# Save images
-cv2.imwrite('monalisa.jpeg', original)
-cv2.imwrite('sobel.jpg', sobel)
-cv2.imwrite('prewitt.jpg', prewitt)
-cv2.imwrite('roberts.jpg', roberts)
-cv2.imwrite('canny.jpg', canny)
 img=cv2.imread('monalisa.jpeg',0)
 if img is None:
   print('Image not found')
